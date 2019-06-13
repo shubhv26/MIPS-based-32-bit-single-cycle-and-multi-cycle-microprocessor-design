@@ -1,0 +1,23 @@
+C:/altera/15.0/TOP_M.sv {1 {vlog -work MIPS_MULTI -sv -stats=none C:/altera/15.0/TOP_M.sv
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module TOP_M
+-- Compiling module MIPS
+-- Compiling module DATAPATH
+-- Compiling module FLOPR
+-- Compiling module FLOPR1
+-- Compiling module FLOPR2
+-- Compiling module MUX2
+-- Compiling module REGFILE
+-- Compiling module SIGNEXT
+-- Compiling module sl2
+-- Compiling module MUX4
+-- Compiling module ALU
+-- Compiling module Sl2new
+-- Compiling module MUX3
+-- Compiling module MEM
+
+Top level modules:
+	TOP_M
+	sl2
+
+} {} {}}

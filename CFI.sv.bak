@@ -1,0 +1,90 @@
+module CFI(input logic [3:0]B, 
+	      input logic [7:0]A,   
+              input logic [2:0]f_loc,
+	      input logic [1:0]f_type,
+	      output logic [7:0]C,
+              output logic [7:0]Y);
+always_comb
+begin
+C=B*B; 
+	case(f_loc)
+		3'b000 : if(f_type==2'b00) 
+                          	C[f_loc]=C[f_loc];          // no change
+			 else if(f_type==2'b01)
+				C[f_loc]=0;                //stuck at 0
+			 else if(f_type==2'b10)
+				C[f_loc]=1;               // stuck at 1
+			 else if(f_type==2'b11)             // flipping
+				C[f_loc]=!C[f_loc];
+
+		3'b001 : if(f_type==2'b00) 
+                          	C[f_loc]=C[f_loc];        // no change
+			 else if(f_type==2'b01)
+				C[f_loc]=0;              //stuck at 0
+			 else if(f_type==2'b10) 
+	 			C[f_loc]=1;               // stuck at 1
+			 else if(f_type==2'b11)        // flipping
+				C[f_loc]=!C[f_loc];
+			
+		3'b010 : if(f_type==2'b00) 
+                          	C[f_loc]=C[f_loc];        // no change
+			 else if(f_type==2'b01) 
+				C[f_loc]=0;              //stuck at 0
+			 else if(f_type==2'b10) 
+				C[f_loc]=1;               // stuck at 1
+			 else if(f_type==2'b11)        // flipping
+				C[f_loc]=!C[f_loc];
+			 
+		3'b011 : if(f_type==2'b00)  
+                          	C[f_loc]=C[f_loc];        // no change
+			 else if(f_type==2'b01) 
+				C[f_loc]=0;               //stuck at 0
+			 else if(f_type==2'b10) 
+				C[f_loc]=1;               // stuck at 1
+			 else if(f_type==2'b11)             // flipping
+				C[f_loc]=!C[f_loc];
+			 
+
+		3'b100 : if(f_type==2'b00)  
+                          	C[f_loc]=C[f_loc];        // no change
+			 else if(f_type==2'b01) 
+				C[f_loc]=0;               //stuck at 0
+			 else if(f_type==2'b10) 
+				C[f_loc]=1;                // stuck at 1
+			 else if(f_type==2'b11)        	   // flipping
+				C[f_loc]=!C[f_loc] ;
+			 
+		3'b101 : if(f_type==2'b00)  
+                          	C[f_loc]=C[f_loc];        // no change
+			 else if(f_type==2'b01) 
+				C[f_loc]=0;               //stuck at 0
+			 else if(f_type==2'b10) 
+				C[f_loc]=1;               // stuck at 1
+			 else if(f_type==2'b11)              // flipping
+				C[f_loc]=!C[f_loc];
+			 
+		3'b110 : if(f_type==2'b00)  
+                          	C[f_loc]=C[f_loc];        // no change
+			 else if(f_type==2'b01) 
+				C[f_loc]=0;               //stuck at 0
+			 else if(f_type==2'b10) 
+				C[f_loc]=1;               // stuck at 1
+			 else if(f_type==2'b11)             // flipping
+				C[f_loc]=!C[f_loc];
+			 
+		3'b111 : if(f_type==2'b00)  
+                          	C[f_loc]=C[f_loc];        // no change
+			 else if(f_type==2'b01) 
+				C[f_loc]=0;                //stuck at 0
+			 else if(f_type==2'b10) 
+				C[f_loc]=1;               // stuck at 1
+			 else if(f_type==2'b11)             // flipping
+				C[f_loc]=!C[f_loc];
+			 
+	endcase
+if(A!=0)
+	Y=C%A;
+else
+	Y=8'bXXXXXXXX;
+end
+endmodule

@@ -1,0 +1,22 @@
+C:/altera/15.0/alu.sv {1 {vlog -work work -sv -stats=none C:/altera/15.0/alu.sv
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/altera/15.0/alu_2.sv {1 {vlog -work work -sv -stats=none C:/altera/15.0/alu_2.sv
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module alu_2
+
+Top level modules:
+	alu_2
+
+} {} {}} C:/altera/15.0/ALU_TB2.sv {1 {vlog -work work -sv -stats=none C:/altera/15.0/ALU_TB2.sv
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module alu_tb2
+
+Top level modules:
+	alu_tb2
+
+} {} {}}

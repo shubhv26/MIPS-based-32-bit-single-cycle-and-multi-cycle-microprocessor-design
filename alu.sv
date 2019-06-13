@@ -1,0 +1,29 @@
+module alu(input logic [31:0] a,b,
+           input logic [2:0]f,
+	         output logic [31:0] y,
+           output logic zero);
+ 
+logic [31:0]bb,S;
+
+always_comb
+	case(f[2])
+		1'b0: bb=b;
+		1'b1: bb=~b;
+	endcase	
+
+assign S= a+bb+ f[2];
+
+always_comb
+	case (f[1:0])
+		2'b00 : y=a&bb;
+		2'b01 : y=a|bb;
+		2'b10 : y=S;
+		2'b11 : y={7'h0000000,S[7]};
+				
+	endcase
+always_comb
+	if(y=='h00000000)
+	zero<=1'b1;
+	else 
+	zero<=1'b0;
+endmodule

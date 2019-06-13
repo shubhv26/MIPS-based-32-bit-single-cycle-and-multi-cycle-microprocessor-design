@@ -1,0 +1,465 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/altera/15.0
+vALU
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1524268808
+!i10b 1
+!s100 j6GE`oH6XM5bKAGdH;^3n3
+I<;<W]ZfGzWjSd_3^05do20
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 !s105 TOP_M_sv_unit
+S1
+R0
+Z5 w1524268605
+Z6 8C:/altera/15.0/TOP_M.sv
+Z7 FC:/altera/15.0/TOP_M.sv
+L0 153
+Z8 OV;L;10.3d;59
+r1
+!s85 0
+31
+Z9 !s108 1524268808.752000
+Z10 !s107 C:/altera/15.0/TOP_M.sv|
+Z11 !s90 -reportprogress|300|-work|MIPS_MULTI|-sv|-stats=none|C:/altera/15.0/TOP_M.sv|
+!i113 1
+Z12 o-work MIPS_MULTI -sv
+n@a@l@u
+vALUDEC
+R1
+R2
+!i10b 1
+!s100 FIZV]kIH6YAV[gm]H4D3[1
+I^MWi2DGU1Q=SOLoBV2L?h1
+R3
+Z13 !s105 controller_sv_unit
+S1
+R0
+Z14 w1524268518
+Z15 8C:/altera/15.0/controller.sv
+Z16 FC:/altera/15.0/controller.sv
+L0 114
+R8
+r1
+!s85 0
+31
+Z17 !s108 1524268808.849000
+Z18 !s107 C:/altera/15.0/controller.sv|
+Z19 !s90 -reportprogress|300|-work|MIPS_MULTI|-sv|-stats=none|C:/altera/15.0/controller.sv|
+!i113 1
+R12
+n@a@l@u@d@e@c
+vCONTROLLER
+R1
+R2
+!i10b 1
+!s100 AlzQSRALWB5:1Emc_dJFH2
+IJI;Ae?fbC0id:Bhh^B`nI0
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 1
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R12
+n@c@o@n@t@r@o@l@l@e@r
+vDATAPATH
+R1
+R2
+!i10b 1
+!s100 0l5fOmlEoiE9;X^BIO?zd2
+I[b>iU]hH?=>j7;PXlm@bA3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 29
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@d@a@t@a@p@a@t@h
+vFLOPR
+R1
+R2
+!i10b 1
+!s100 h=kCMJIfc9ie@2>V2aNcG1
+ILoGkBO?TOk6aMj5kMQ21h2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 70
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@f@l@o@p@r
+vFLOPR1
+R1
+R2
+!i10b 1
+!s100 b^]5b5]=FLkc:7cJ=DcLC2
+I^3A8jiZ1O_hj>ob>7CcZe1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 83
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@f@l@o@p@r1
+vFLOPR2
+R1
+R2
+!i10b 1
+!s100 DnUP_MYjmi9YP<oF?J4Qc3
+I6z`ZT3`Y0>BSe`gRNzBL`3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 96
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@f@l@o@p@r2
+vMAINDEC
+R1
+R2
+!i10b 1
+!s100 eFI[m[<IJ3i9VeM;FhAO52
+IJKZD6kHNION4QJ[J6Mgek3
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 22
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R12
+n@m@a@i@n@d@e@c
+vMEM
+R1
+R2
+!i10b 1
+!s100 FRmf^^lWYE[Bj:;G>8TkL3
+IWAV[m]=cZT[64V<=^jR]N0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 199
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@m@e@m
+vMIPS
+R1
+R2
+!i10b 1
+!s100 =9<dcjh_VJ;7d8f`h_1_30
+IlF4Eab?YVjP_IbL]hckMU2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@m@i@p@s
+vMUX2
+R1
+R2
+!i10b 1
+!s100 6PIP94EJ:9B7aW_LOW2HB1
+INVh^HkiK1hhL2m5IYC[jo0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 109
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@m@u@x2
+vMUX3
+R1
+R2
+!i10b 1
+!s100 :_5hYP@j`dCALFj9hQlca3
+Ia74XoQiCUReOLEmH8SSOi3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 192
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@m@u@x3
+vMUX4
+R1
+R2
+!i10b 1
+!s100 Qlg:I][;U;52k4L3K?cHz2
+IRZV3Xk8dkNbIE0`^RfT5G2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 140
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@m@u@x4
+vREGFILE
+R1
+R2
+!i10b 1
+!s100 B1I1_UA05P53l=Dj4OmbF3
+I8<W>:59iY5@l0@32_CZJB2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 115
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@r@e@g@f@i@l@e
+vSIGNEXT
+R1
+R2
+!i10b 1
+!s100 T^9YUB^[BYZTJIB>UkcB52
+I7APUo_`h9HMh9fUO4?^LV3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 129
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@s@i@g@n@e@x@t
+vSl2
+R1
+R2
+!i10b 1
+!s100 2YWh=HV8WcTG@jXHi0<=N1
+Ic81g`>>UT2niV3ROz6UVP2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+Z20 L0 134
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@sl2
+vsl2
+R1
+!s110 1524268522
+!i10b 1
+!s100 Pd21KYVT=zK0]8zJ[L8`f2
+Ik^RhL3bGdj9a8F<C_gW>I3
+R3
+R4
+S1
+R0
+w1524267394
+R6
+R7
+R20
+R8
+r1
+!s85 0
+31
+!s108 1524268522.883000
+R10
+R11
+!i113 1
+R12
+vSl2new
+R1
+R2
+!i10b 1
+!s100 I7I=Il5QHFWifC`i8n4O[1
+I1YPn_[e:TTU?Gf?9SD:em2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 186
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@sl2new
+vTOP_M
+R1
+R2
+!i10b 1
+!s100 QcBfRHSRFAT>7fc=WdY_K0
+IFVF1k<Qb9lS]H=4aK905_0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@t@o@p_@m
